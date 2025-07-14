@@ -1,0 +1,203 @@
+body {
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    color: #2E2F42;
+     
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+/*navigation section start*/
+
+.header-navigation-logo {
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.header-navigation-logo-color{
+    font-weight: 700;
+    color: #4D5AE5;
+    
+}
+
+.header-navigation-list {
+    font-weight: 500;
+    color: #2E2F42; 
+    font-size: 16px;
+    line-height: 1.5;
+   
+}
+
+.header-navigation-list-item {}
+
+.header-contacts {}
+
+.header-contacts-list {}
+
+.header-contacts-list-item {}
+
+.header-contacts-list-item-number {
+    font-weight: 400;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    
+        
+}
+
+.header-contacts-list-item-mail{
+    font-weight: 400;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* navigation section end */
+
+/* hero-banner section start */
+
+.hero-banner{
+    background-color: #2E2F42;
+}
+.hero-banner-title{
+    color: #FFFFFF;
+    width: 1440px;
+    height: 600px;
+}
+
+.hero-banner-button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+/* hero-banner section end */
+
+/* benefits section start */
+
+.benefits {
+    background: #f4f4fd;
+    width: 1440px;
+    height: 732px;
+}
+
+.benefits-main-title {}
+
+.benefits-list-item {}
+
+.benefits-list {}
+
+.benefits-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.benefits-list-item-text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* benefits section end */
+
+/* our team secrion start */
+
+.ourteam {}
+
+.ourteam-main-title {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.ourteam-list {}
+
+.ourteam-list-item {
+}
+
+.ourteam-list-item-image{}
+
+.ourteam-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.ourteam-list-item-text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* our team secrion end */
+
+/* our portfolio section start */
+.ourportfolio {}
+
+.ourportfolio-main-title {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.ourportfolio-list {}
+
+.ourportfolio-list-item {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.ourportfolio-list-item-image{}
+
+.ourportfolio-title {}
+
+.ourportfolio-list-item-text {}
+
+/* our portfolio section end */
+
+/* fotter/bottom section start */
+.bottom {
+    background: #2e2f42;
+    width: 1440px;
+    height: 312px;
+}
+
+.bottom-logo {
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.bottom-logo-color{
+    font-weight: 700;
+    color: #4D5AE5;
+}
+
+.bottom-text {
+    color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* fotter/bottom section end */
