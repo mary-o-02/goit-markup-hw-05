@@ -16,7 +16,7 @@ a{
 /*navigation section start*/
 
 .header-navigation-logo {
-    font-family: "Raleway"; sans-serif;
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #4D5AE5;
@@ -40,6 +40,10 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em
 }
+.header-navigation-list-item:hover,
+.header-navigation-list-item:focus{
+    color: #404bbf;
+}
 
 .header-contacts {
     font-style: normal;
@@ -54,8 +58,12 @@ a{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    
-        
+    letter-spacing: 0.02em;      
+}
+
+.header-contacts-list-item-number:hover,
+.header-contacts-list-item-number:focus{
+    color: #404bbf;
 }
 
 .header-contacts-list-item-mail{
@@ -63,6 +71,11 @@ a{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-contacts-list-item-mail:hover,
+.header-contacts-list-item-mail:focus {
+    color: #404bbf;
 }
 /* navigation section end */
 
@@ -89,23 +102,23 @@ a{
     background-color: #4D5AE5;
     cursor: pointer;
 }
-.hero-banner-button :hover{
+.hero-banner-button:hover,
+.hero-banner-button:focus {
     background-color: #404BBF;
 }
-.hero-banner-button :focus{
-    background-color: #404BBF;
-}
+
 /* hero-banner section end */
 
 /* benefits section start */
 
 .benefits {}
 
-.benefits-list-item {}
-
 .benefits-list {}
 
-.benefits-title {
+.benefits-list-item {}
+
+
+.benefits-list-item-title{
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
@@ -139,11 +152,10 @@ a{
     text-transform: capitalize;
 }
 
-.ourteam-list {
-    background-color: #FFFFFF
-}
+.ourteam-list {}
 
 .ourteam-list-item {
+    background-color: #FFFFFF
 }
 
 .ourteam-list-item-image{}
@@ -209,7 +221,7 @@ a{
 }
 
 .bottom-logo {
-    font-family: "Raleway"; sans-serif;
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #4D5AE5;
