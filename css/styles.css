@@ -58,7 +58,7 @@ a{
     color: #404bbf;
 }
 
-.header-contacts-list-item-number {
+.header-contacts-list-item-adress {
     font-weight: 400;
     color: #434455;
     font-size: 16px;
@@ -66,22 +66,11 @@ a{
     letter-spacing: 0.02em;      
 }
 
-.header-contacts-list-item-mail:hover,
-.header-contacts-list-item-mail:focus {
+.header-contacts-list-item-adress:hover,
+.header-contacts-list-item-adress:focus {
     color: #404bbf;
 }
 
-.header-contacts-list-item-mail{
-    font-weight: 400;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.header-contacts-list-item-number:hover,
-.header-contacts-list-item-number:focus {
-    color: #404bbf;
-}
 /* navigation section end */
 
 /* hero-banner section start */
