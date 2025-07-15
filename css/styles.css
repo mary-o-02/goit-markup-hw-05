@@ -40,8 +40,8 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em
 }
-.header-navigation-list-item:hover,
-.header-navigation-list-item:focus{
+.header-navigation-list-item-link:hover,
+.header-navigation-list-item-link:focus{
     color: #404bbf;
 }
 
@@ -53,6 +53,11 @@ a{
 
 .header-contacts-list-item {}
 
+.header-navigatiot-list-item-link:hover,
+.header-navigatiot-list-item-link:focus {
+    color: #404bbf;
+}
+
 .header-contacts-list-item-number {
     font-weight: 400;
     color: #434455;
@@ -61,8 +66,8 @@ a{
     letter-spacing: 0.02em;      
 }
 
-.header-contacts-list-item-number:hover,
-.header-contacts-list-item-number:focus{
+.header-contacts-list-item-mail:hover,
+.header-contacts-list-item-mail:focus {
     color: #404bbf;
 }
 
@@ -73,8 +78,8 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-contacts-list-item-mail:hover,
-.header-contacts-list-item-mail:focus {
+.header-contacts-list-item-number:hover,
+.header-contacts-list-item-number:focus {
     color: #404bbf;
 }
 /* navigation section end */
@@ -117,8 +122,7 @@ a{
 
 .benefits-list-item {}
 
-
-.benefits-list-item-title{
+.benefits-list-item-title {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
