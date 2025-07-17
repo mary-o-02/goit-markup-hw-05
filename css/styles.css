@@ -198,7 +198,7 @@ a{
 .benefits-list {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
    
     
 }
