@@ -4,8 +4,15 @@ body {
     background-color: #ffff;
      
 }
+
+/* reset */
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
 ul li{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -13,7 +20,35 @@ a{
     color: #2E2F42;
 }
 
+
+/* common */
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+
 /*navigation section start*/
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display:flex;
+    align-items: center;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
 
 .header-navigation-logo {
     font-family: "Raleway", sans-serif;
@@ -23,6 +58,8 @@ a{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .header-navigation-logo-color{
@@ -31,7 +68,11 @@ a{
     
 }
 
-.header-navigation-list {}
+.header-navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .header-navigation-list-item {
     font-weight: 500;
@@ -40,6 +81,11 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em
 }
+
+.header-navigatiot-list-item-link {
+    display: block;
+    padding: 24px 0;
+}
 .header-navigation-list-item-link:hover,
 .header-navigation-list-item-link:focus{
     color: #404bbf;
@@ -47,11 +93,19 @@ a{
 
 .header-contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
-.header-contacts-list {}
+.header-contacts-list {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
 
-.header-contacts-list-item {}
+.header-contacts-list-item-adress {
+    display: block;
+    padding: 24px 0;
+}
 
 .header-navigatiot-list-item-link:hover,
 .header-navigatiot-list-item-link:focus {
@@ -77,6 +131,18 @@ a{
 
 .hero-banner{
     background-color: #2E2F42;
+    
+}
+
+.hero-banner-content{
+    display: flex;
+        align-items: center;
+    padding: 188px 472px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 }
 .hero-banner-title{
     color: #FFFFFF;
@@ -84,6 +150,9 @@ a{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-banner-button{
@@ -95,6 +164,9 @@ a{
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
 }
 .hero-banner-button:hover,
 .hero-banner-button:focus {
@@ -105,11 +177,26 @@ a{
 
 /* benefits section start */
 
+.benefits-content{
+
+    background-color: #ffff;
+   
+}
+
 .benefits {}
 
-.benefits-list {}
+.benefits-list {
+    display: flex;
+    gap: 24px;
+    padding: 120px 0;
+    justify-content: space-between;
+   
+    
+}
 
-.benefits-list-item {}
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .benefits-list-item-title {
     color: #2e2f42;
@@ -117,6 +204,7 @@ a{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .benefits-list-item-text {
@@ -133,7 +221,10 @@ a{
 
 .ourteam {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
+
 
 .ourteam-main-title {
     color: #2e2f42;
@@ -143,15 +234,40 @@ a{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.ourteam-list {}
+.ourteam-list {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+}
 
 .ourteam-list-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    
+    border-radius: 0 0 4px 4px;
+    /* box-shadow:
+         0px 2px 1px rgba(46, 47, 66, 0.08),
+         0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08); */
+    width: calc((100% - 72px) / 4);
+    text-align: center;
+    overflow: hidden;
 }
 
-.ourteam-list-item-image{}
+.ourteam-list-item-image{
+    width: 100%;
+        height: auto;
+        display: block;
+}
+
+.ourteam-container{
+    padding: 32px 16px;
+}
 
 .ourteam-title {
     color: #2e2f42;
@@ -159,6 +275,7 @@ a{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .ourteam-list-item-text {
@@ -172,7 +289,9 @@ a{
 /* our team secrion end */
 
 /* our portfolio section start */
-.ourportfolio {}
+.ourportfolio {
+    padding: 120px 0;
+}
 
 .ourportfolio-main-title {
     color: #2e2f42;
@@ -182,20 +301,47 @@ a{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.ourportfolio-list {}
+.ourportfolio-list {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+}
 
-.ourportfolio-list-item {}
+.ourportfolio-list-item {
+    background-color: #ffffff;
+        /* box-shadow:
+            0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08); */
+        width: calc((100% - 48px) / 3);
+       
+        overflow: hidden;
+        border: 1px solid #e7e9fc;
+}
 
-.ourportfolio-list-item-image{}
+.ourportfolio-list-item-image{
+    width: 100%;
+        height: auto;
+        display: block;
+}
 
+.ourportfolio-container{
+    padding: 32px 16px;
+}
 .ourportfolio-title {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin: 0;
 }
 
 .ourportfolio-list-item-text {
@@ -210,9 +356,15 @@ a{
 /* fotter/bottom section start */
 .bottom {
     background-color: #2e2f42;
+    padding: 100px 0;
     
 }
-
+.botom .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
 .bottom-logo {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -221,7 +373,10 @@ a{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
 }
+
 
 .bottom-logo-color{
     font-weight: 700;
@@ -234,7 +389,9 @@ a{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    max-width: 264px;
+    margin: 0;
 }
 
 /* fotter/bottom section end */
