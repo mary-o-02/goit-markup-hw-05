@@ -457,9 +457,9 @@ a{
     padding: 100px 0;
     
 }
-.bottom.footer {
+.bottom .container  {
     display: flex;
-    flex-direction: column;
+   
     align-items: flex-start;
     gap: 16px;
     
@@ -497,9 +497,10 @@ a{
     align-items: baseline;
     
 }
-.container.bottom-container{
+.container .bottom-container{
     margin-right: 120px;
 }
+
 .social-text{
     font-weight: 500;
     font-size: 16px;
@@ -509,7 +510,7 @@ a{
     margin-bottom: 16px;
 }
 
-.social-item.bottom-item{
+.social-list{
     gap: 16px;
 }
 .social-link.bottom-link:hover,
