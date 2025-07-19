@@ -459,8 +459,7 @@ a{
 }
 .bottom .container  {
     display: flex;
-   
-    align-items: flex-start;
+     align-items: baseline
     gap: 16px;
     
 }
@@ -510,7 +509,7 @@ a{
     margin-bottom: 16px;
 }
 
-.social-list{
+.socials-list{
     gap: 16px;
 }
 .social-link.bottom-link:hover,
