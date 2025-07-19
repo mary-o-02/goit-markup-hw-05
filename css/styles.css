@@ -459,7 +459,7 @@ a{
 }
 .bottom .container  {
     display: flex;
-     align-items: baseline
+     align-items: baseline;
     gap: 16px;
     
 }
@@ -493,11 +493,12 @@ a{
 }
 .footer{
     display: flex;
-    align-items: baseline;
+    
     
 }
 .container .bottom-container{
     margin-right: 120px;
+    
 }
 
 .social-text{
@@ -509,7 +510,7 @@ a{
     margin-bottom: 16px;
 }
 
-.socials-list{
+.socials-list.bottom-list{
     gap: 16px;
 }
 .social-link.bottom-link:hover,
