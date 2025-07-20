@@ -621,8 +621,7 @@ fill: #ffffff
 }
 .close-btn:hover,
 .close-btn:focus{
-    background-color: #404bbf;
-    border: none;
+fill: #ffffff
 }
 .modal-text{
     font-family: "Roboto", sans-serif;
