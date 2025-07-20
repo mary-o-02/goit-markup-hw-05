@@ -702,7 +702,10 @@ a{
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+
+}
+.form-input:focus{
+    border-color: #4D5AE5;
 }
 .input-wrapper {
     position: relative;
@@ -721,6 +724,9 @@ a{
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.form-textarea:focus{
     border-color: #4D5AE5;
 }
 .checkbox-custom {
@@ -736,7 +742,7 @@ a{
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
-.label input[type="checkbox"]:checked+ .checkbox-custom {
+input[type="checkbox"]:checked+.label .checkbox-custom {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
