@@ -517,7 +517,26 @@ a{
 .social-link.bottom-link:focus {
     background-color: #31d0aa;
 }
-
+.form-footer{
+    gap: 24px;
+    display: flex;
+}
+.input-footer{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    color: #ffffff;
+}
+.input-footer::placeholder {
+    color: #ffffff;
+}
 .subscribe{
     margin-left: auto;
     display: flex;
@@ -621,7 +640,9 @@ fill: #ffffff
 }
 .close-btn:hover,
 .close-btn:focus{
+    background-color: #404bbf;
 fill: #ffffff
+border: none;
 }
 .modal-text{
     font-family: "Roboto", sans-serif;
@@ -634,8 +655,8 @@ fill: #ffffff
         margin-bottom: 16px;
 }
 
-.label-container{
-    margin-bottom: 8px;
+.form-main{
+   
 }
 .modal-icons{
     position: absolute;
