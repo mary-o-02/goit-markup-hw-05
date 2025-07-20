@@ -544,7 +544,7 @@ a{
      gap: 16px;
      
 }
-.social-text2{
+.social-text-two{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -702,20 +702,26 @@ a{
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: #4D5AE5;
+   
 }
 .input-wrapper {
     position: relative;
 }
 .form-textarea {
+    width: 100%;
     height: 120px;
     font-size: 12px;
+    border-radius: 4px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
     resize: none;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: #4D5AE5;
 }
 .checkbox-custom {
     width: 16px;
@@ -726,20 +732,16 @@ a{
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
-.input[type="checkbox"]:checked+label .checkbox-custom {
-    background-color:  #404bbf;
+.label input[type="checkbox"]:checked+ .checkbox-custom {
+    background-color: #404bbf;
     border: none;
-    fill:  #F4F4FD;
+    fill: #F4F4FD;
 }
-.input:checked+.checkbox-custom {
-    background-color: #404bbf;;
-    border: none;
-    fill: #F4F4FD;;
-}
+
 .privacy-link{
     color: #4d5ae5;
 }
